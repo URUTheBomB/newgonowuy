@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>NewGoNow UY - Puntos de venta</title>
+  <meta name="description" content="NewGoNow Puntos de venta">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/favicon2.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/assets/script.js"></script>
+</head>
+<body>
+  <!-- WHATSAPP -->
+  <a href="https://api.whatsapp.com/send/?phone=59896169284" id="boton-whatsapp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+    Contactar
+  </a>
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo1.png" alt="NewGoNow UY" id="logo1" class="p-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-2" id="navbarNavAltMarkup">
+        <div class="navbar-nav p-2">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          <a class="nav-link" href="dm20.html">DM20</a>
+          <a class="nav-link" href="sy00.html">SY00</a>
+          <a class="nav-link" href="posventa.html">Posventa</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="px-4 pt-5 text-center border-bottom bg-dark text-white mb-5">
+    <h1 class="display-4 fw-bold">Puntos de venta</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Encontrar los utilitarios que necesitas nunca había sido tan fácil.<br>
+        Diseñados para ofrecerte la mejor experiencia, hemos simplificado cada paso para que puedas acceder a nuestros productos sin complicaciones. <br>
+        Estamos cerca de ti, para para ayudarte a encontrar lo que buscas de manera rápida y sencilla, <b class="fw-bold">estés donde estés.</b></p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/img/map-ventas.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Mapa: Puntos de venta" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+  
+  <section id="concesionarios" class="text-center">
+    <!-- Navegación -->
+    <div class="container mx-auto fadeIn ">
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><button class="nav-link active"  id="concesionario-montevideo-tab"    data-bs-toggle="tab" data-bs-target="#concesionario-montevideo"    type="button" role="tab" aria-controls="concesionario-montevideo"    aria-selected="true">Montevideo</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-canelones-tab"     data-bs-toggle="tab" data-bs-target="#concesionario-canelones"     type="button" role="tab" aria-controls="concesionario-canelones"     aria-selected="false">Canelones</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-cerrolargo-tab"    data-bs-toggle="tab" data-bs-target="#concesionario-cerrolargo"    type="button" role="tab" aria-controls="concesionario-cerrolargo"    aria-selected="false">Cerro Largo</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-colonia-tab"       data-bs-toggle="tab" data-bs-target="#concesionario-colonia"       type="button" role="tab" aria-controls="concesionario-colonia"       aria-selected="false">Colonia</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-flores-tab"        data-bs-toggle="tab" data-bs-target="#concesionario-flores"        type="button" role="tab" aria-controls="concesionario-flores"        aria-selected="false">Flores</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-maldonado-tab"     data-bs-toggle="tab" data-bs-target="#concesionario-maldonado"     type="button" role="tab" aria-controls="concesionario-maldonado"     aria-selected="false">Maldonado</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-paysandu-tab"      data-bs-toggle="tab" data-bs-target="#concesionario-paysandu"      type="button" role="tab" aria-controls="concesionario-paysandu"      aria-selected="false">Paysandú</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-sanjose-tab"       data-bs-toggle="tab" data-bs-target="#concesionario-sanjose"       type="button" role="tab" aria-controls="concesionario-sanjose"       aria-selected="false">San José</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-soriano-tab"       data-bs-toggle="tab" data-bs-target="#concesionario-soriano"       type="button" role="tab" aria-controls="concesionario-soriano"       aria-selected="false">Soriano</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link"         id="concesionario-tacuarembo-tab"    data-bs-toggle="tab" data-bs-target="#concesionario-tacuarembo"    type="button" role="tab" aria-controls="concesionario-tacuarembo"    aria-selected="false">Tacuarembó</button></li>
+      </ul>
+        
+      <div class="tab-content" id="myTabContent">
+
+        <!-- Montevideo -->
+        <div class="tab-pane active"  id="concesionario-montevideo"    role="tabpanel"  aria-labelledby="montevideo-tab">
+          <div id="tarjetero-concesionarios" class="row justify-content-center">
+            
+            <div class="card show col-sm-12 col-md-10 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body">
+                <h5 class="card-title">Asticars</h5>
+                <p class="card-text">Av. Italia 5144 <br>2613 7597</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59896169281?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/Asticars+Autom%C3%B3viles+-+KIA,+VICTORY,+YADEA/@-34.8853787,-56.0986731,17z/data=!3m1!4b1!4m6!3m5!1s0x959f86db597d6def:0x2b583f4b7851f9e2!8m2!3d-34.8853831!4d-56.0960982!16s%2Fg%2F1q62cdbn6?entry=ttu" class="btn btn-outline-primary"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.asticars.com/autos/autos.php?id_estado=1&id_tipo=0&id_marca=36&id_modelo=0&anio=0&secc=autos" class="btn btn-outline-primary"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body">
+                <h5 class="card-title">Sehabiague</h5>
+                <p class="card-text">Av. Gral. Rondeau 1711 <br>2929 8628</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899277389?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/Sehabiague+Repuestos+(Distribuidores+Lifan+-+Zx+Auto+-+Victory+y+m%C3%A1s)+WhatsApp+096+422+603+-+097+308+035/@-34.8990824,-56.1927918,19z/data=!4m6!3m5!1s0x959f81543f45d9cf:0x8277d3003c1c4a7a!8m2!3d-34.8990524!4d-56.1922639!16s%2Fg%2F11pc1qvqph?entry=ttu" class="btn btn-outline-primary"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://sehabiagueypons.com/" class="btn btn-outline-primary"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body ">
+                <h5 class="card-title">Ciompi Automoviles</h5>
+                <p class="card-text">L. A. de Herrera 1896<br>2487 6133</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899219816?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Av.+Luis+Alberto+de+Herrera+1896,+11600+Montevideo,+Departamento+de+Montevideo/@-34.8925709,-56.227266,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x959f811d749dfcbd:0x63d1d2e78eaf5a6c!2m2!1d-56.1448839!2d-34.8926075?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.enriqueciompiautomoviles.com/es" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body ">
+                <h5 class="card-title">FacilCar</h5>
+                <p class="card-text">Galicia 1475 <br> 2400 2001</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59893396532?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Galicia+1475,+11200+Montevideo,+Departamento+de+Montevideo/@-34.8991212,-56.2674861,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x959f81cc63e4f767:0x1ced097447a0f6e2!2m2!1d-56.1850889!2d-34.8991402?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facilcaruruguay.com/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body ">
+                <h5 class="card-title">Gonzalo Ruiz Automoviles</h5>
+                <p class="card-text">Cerro Largo 851<br>2901 9669</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59892551022?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Cerro+Largo+851,+11200+Montevideo,+Departamento+de+Montevideo/@-34.9015948,-56.2808729,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x959f80342175a751:0x260760bccb477144!2m2!1d-56.1984718!2d-34.9016226?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://gonzaloruiz.com.uy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body  ">
+                <h5 class="card-title">Shoppingcar Automoviles</h5>
+                <p class="card-text">Luis Alberto de Herrera 1162<br>2622 8000</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59895292563?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Shoppingcar+Automoviles/@-34.8999547,-56.1797687,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x959f813fe1d26565:0x7670275dac4f161f!2m2!1d-56.1363724!2d-34.9063974?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://shoppingcar.com.uy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body  ">
+                <h5 class="card-title">ExpoAuto - Garzón</h5>
+                <p class="card-text">Av. Eugenio Garzón 1002<br>2358 3370</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59895557911?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Av.+Gral.+Eugenio+Garz%C3%B3n+1002,+12900+Montevideo,+Departamento+de+Montevideo/@-34.8309301,-56.302994,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95a1d4dc09479113:0xca773f201d2ab250!2m2!1d-56.2205907!2d-34.8309582?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/expoauto.automoviles/?fref=ts" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body  ">
+                <h5 class="card-title">ExpoAuto - Gral. Flores</h5>
+                <p class="card-text">Av. General Flores 3428<br>2201 2983</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59895558571?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Av.+Gral.+Flores+3428,+11600+Montevideo,+Departamento+de+Montevideo/@-34.865234,-56.1711265,18.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x959f8070aee787d5:0xbc10aa98270d5a13!2m2!1d-56.1702506!2d-34.8653466?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/expoauto.automoviles/?fref=ts" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 m-2 p-2">
+              <div class="card-body  ">
+                <h5 class="card-title">Milan Motors</h5>
+                <p class="card-text">Av. General Rivera 3367<br>2623 2939</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899117692?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir/-34.8854977,-56.0959516/Av.Gral+Rivera+3367,+11600+Montevideo,+Departamento+de+Montevideo/@-34.8935677,-56.1377844,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x959f81172ebd9543:0xe7a294ec071ba05d!2m2!1d-56.1418237!2d-34.9019646?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://milanmotors.uy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        
+        <!-- Canelones -->
+        <div class="tab-pane fade"    id="concesionario-canelones"     role="tabpanel"  aria-labelledby="canelones-tab">
+          <div id="tarjetero-concesionarios" class="row justify-content-center text-center">
+
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Chiquiar Automoviles</h5>
+              <p class="card-text">Chiquiar Automoviles<br>2288 1711</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="https://wa.me/59899915253?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyDAgAEEUYORjjAhiABDINCAEQLhivARjHARiABDIICAIQABgWGB7SAQgxNDk5ajBqOagCALACAA&um=1&ie=UTF-8&fb=1&gl=uy&sa=X&geocode=KamWtguKJqCVMexLrEXt9AjP&daddr=ruta+8+km+28,500,+91001+Barros+Blancos" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="https://www.chiquiarautomotores.com.uy/?marca=Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Roxana Andrada</h5>
+              <p class="card-text">Las Piedras, Lavalleja 800<br>2364 9003</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/place/Juan+Antonio+Lavalleja+800,+15900+Las+Piedras,+Departamento+de+Canelones/@-34.7338427,-56.2177894,19z/data=!3m1!4b1!4m6!3m5!1s0x95a1d2b9991e7157:0x5e2112bbbd5e125a!8m2!3d-34.7338438!4d-56.2171457!16s%2Fg%2F11h01wv97n?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Zubeldía Automotores</h5>
+              <p class="card-text">Pando, Roosvelt 919<br>2292 5629</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/place/Presidente+Franklin+Delano+Roosevelt+919,+15600+Pando,+Departamento+de+Canelones/@-34.7248256,-55.9631463,17z/data=!3m1!4b1!4m5!3m4!1s0x95a0269832011e6d:0xd7c020ff8e6c6931!8m2!3d-34.72483!4d-55.9605714?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+                  
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">La Rotonda Automóviles</h5>
+              <p class="card-text">Sauce, Ruta 6 km34.800<br>2294 5507</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="https://wa.me/59899303503?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/dir//9X22%2BC4G+La+Rotonda+Autom%C3%B3viles,+91500+Sauce,+Departamento+de+Canelones/@-34.648932,-56.0576812,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a0303e50bc0b5f:0xda57ab431fe49a01!2m2!1d-56.0496695!2d-34.6489317!3e0?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="https://www.instagram.com/larotondaautomoviles/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Progreso Motors</h5>
+              <p class="card-text">Progreso, Artigas 318<br>099 277 389</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="https://wa.me/59899277389?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/place/Av.+Jos%C3%A9+Artigas+318,+15900+Departamento+de+Canelones/@-34.6536509,-56.2379869,17z/data=!3m1!4b1!4m5!3m4!1s0x95a1cc9a8656d571:0xe19f3dff424e19ce!8m2!3d-34.6536553!4d-56.235412?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="https://www.instagram.com/progreso.motors/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card show col-sm-12 col-md-5 col-lg-4 col-xl-3 p-2 m-2 p-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Daniel Morales Automoviles</h5>
+              <p class="card-text">San Jacinto, Av. Artigas a 50 mts Rotonda Rutas 7 y 11<br>4399 3172</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="https://wa.me/59899690807?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/place/Daniel+Morales+Automotores/@-34.5465968,-55.8769587,17z/data=!3m1!4b1!4m6!3m5!1s0x95a03dc176e8ebd3:0x3eaea4d5d7c542f9!8m2!3d-34.5466013!4d-55.8720878!16s%2Fg%2F11bccd654d?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="https://www.dmoralesautomotores.com.uy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Maldonado -->
+        <div class="tab-pane fade"    id="concesionario-maldonado"     role="tabpanel"  aria-labelledby="maldonado-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+    
+            <div class="card show col-sm-12 col-md-10 col-lg- p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Bolumburu Motors</h5>
+                <p class="card-text">Maldonado, Av. Franklin Delano Roosvelt y Av.Chiossi<br>4222 7928</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59891462331?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//20000+Punta+del+Este,+Departamento+de+Maldonado/@-34.921885,-55.0350471,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95751aa48b46709f:0xc773d2717cf0ea5a!2m2!1d-54.952646!2d-34.9219128?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.bolumburumotors.com/contactenos" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-10 col-lg- p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Luis Bentancor Automoviles</h5>
+                <p class="card-text">Piriápolis, Ruta 10 Parada 14 (Playa verde)<br>4432 9231</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899912291?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/Luis+Bentancor+Autom%C3%B3viles/@-34.8225823,-55.3137384,17.5z/data=!4m6!3m5!1s0x957543fc273bf5e9:0x8240ed9c9aee061a!8m2!3d-34.8230151!4d-55.3125558!16s%2Fg%2F11sfjv8jpd?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.instagram.com/l.bentancorautomoviles/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-10 col-lg- p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Zona Oeste Automotores</h5>
+                <p class="card-text">Pan de Azucar, Ruta 9 km 106<br>099 156 407</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899156407?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Ruta9+Km+106,+Pan+de+Az%C3%BAcar,+Departamento+de+Maldonado/@-34.7829885,-55.3205203,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95754410924cc8f7:0xa4e97ec2773d9217!2m2!1d-55.238285!2d-34.7830622?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/zonaoeste.automotores/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>  
+
+        <!-- Tacuarembó -->     
+        <div class="tab-pane fade"    id="concesionario-tacuarembo"    role="tabpanel"  aria-labelledby="tacuarembo-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+
+            <div class="card show col-sm-12 col-md-12 col-lg-4 col-xl-3 p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Gregorio Ríos Automoviles</h5>
+                <p class="card-text">Tacuarembó, Av. Pablo Rios 154 BIS<br>4632 220</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/598?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//72FH%2BCFP+Gregorio+R%C3%ADos+-+Renault+Uruguay,+45000+Tacuaremb%C3%B3,+Departamento+de+Tacuaremb%C3%B3/@-31.7270652,-55.9714701,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95a84ef1886f2519:0x823876327f20d10b!2m2!1d-55.9713024!2d-31.7264219!3e0?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/gregoriorios.automoviles" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card show col-sm-12 col-md-12 col-lg-4 col-xl-3 p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Automotora Oyarzabal</h5>
+                <p class="card-text">Paso de los Toros, Angela B. de Lopez<br>4664 2737</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899157805?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//La+Esquina+De+Las+Motos,+Angela+B.+de+Lopez+608,+45100+Paso+de+los+Toros,+Departamento+de+Tacuaremb%C3%B3/@-33.1699924,-56.4926778,9.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95a641a121fa81f5:0xce3d39738e589701!2m2!1d-56.5197107!2d-32.8060984?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.instagram.com/oyarzabalautomoviles/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <!-- Colonia -->
+        <div class="tab-pane fade"    id="concesionario-colonia"       role="tabpanel"  aria-labelledby="colonia-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+            
+            <div class="card show col-sm-12 col-md-5  p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Colonia Automas</h5>
+                <p class="card-text">Colonia del sacramento, Bvar, Av. Josè Batlle y Ordoñez 572<br>4523 0378</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899924387?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Bvar,+Av.+Jos%C3%A8+Batlle+y+Ordo%C3%B1ez+572,+70000+Col.+del+Sacramento,+Departamento+de+Colonia/@-34.4571008,-57.91381,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95a31290a461d963:0xc83e330c14c35019!2m2!1d-57.8314088!2d-34.4571284?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="http://automas.com.uy/wp/inicio/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card show col-sm-12 col-md-5  p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Carmelo Automotores</h5>
+                <p class="card-text">Carmelo, Ruta 1 km 255<br>097 308 697</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59897308697?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir//Brigadier+Gral.+Manuel+Oribe/@-34.4635332,-56.9076214,15z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x95a3127b9cc719bd:0x17432559798fd378!2m2!1d-56.8973217!2d-34.4635513?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.instagram.com/automoviles_carmelo/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+          
+        <!-- Flores -->
+        <div class="tab-pane fade"    id="concesionario-flores"       role="tabpanel"   aria-labelledby="flores-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+            
+            <div class="card show col-10 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Expo Auto - Trinidad</h5>
+                <p class="card-text">Ruta 3 Km 193.500<br>099 338 855</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899338855?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/B%26B+Autom%C3%B3viles/@-33.5092856,-56.9343854,17z/data=!3m1!4b1!4m6!3m5!1s0x95a42147f0eb7fcf:0xcc7528f28849b9ec!8m2!3d-33.5092856!4d-56.9343854!16s%2Fg%2F11vx14tqbf?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/expoauto.automoviles/?fref=ts" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      
+        <!-- San Jose -->
+        <div class="tab-pane fade"    id="concesionario-sanjose"       role="tabpanel"  aria-labelledby="sanjose-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+            
+            <div class="card show col-10 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Luis Moreira Automoviles</h5>
+                <p class="card-text">San José de Mayo, 25 de Mayo 333<br>4342 3895</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="" class="btn btn-outline-primary mx-2 disabled"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir/-34.8877502,-56.1030678/-34.3431474,-56.7122782/@-34.6127546,-57.0929468,9z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100039866594723" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <!-- Soriano -->
+        <div class="tab-pane fade"    id="concesionario-soriano"       role="tabpanel"  aria-labelledby="soriano-tab">
+          <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+            
+            <div class="card show col-sm-12 col-md-5 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Gonzalo Ruiz Automóviles</h5>
+                <p class="card-text">Dolores, Rio Negro esquina Ruta 21<br>4534 4024</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59892551022?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com.uy/maps/dir//Gonzalo+Ruiz+Autom%C3%B3viles,+Dolores+Departamento+de+Soriano/@-33.5197805,-58.2903151,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x95a5288c6acd67d3:0xe8eec2751973f67f!2m2!1d-58.2079322!2d-33.5198509!3e3?hl=es-419&entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://gonzaloruiz.com.uy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>  
+            
+            <div class="card show col-sm-12 col-md-5 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Melazzi y Moreira</h5>
+                <p class="card-text">Mercedes, Ruta 2 km 168<br>4532 3175</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59891909476?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com.uy/maps/dir//QX2M%2B4F6+Hyundai+Soriano+Melazzi+%26+Moreira+Autom%C3%B3viles,+75000+Mercedes,+Departamento+de+Soriano/@-33.2497083,-58.0189386,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95a53f8d47d5453d:0x60a4c4026dd5fdfe!2m2!1d-58.0163621!2d-33.249708?hl=es-419&entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/people/Melazzi-Moreira-Autom%C3%B3viles/100057252137823/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card show col-sm-12 col-md-5 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">AutoWork</h5>
+                <p class="card-text">Mercedes, Pedro Hors 1154<br>099 349 028</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59898586505?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/Automotora+autowork/@-33.2575815,-58.0181054,20z/data=!4m6!3m5!1s0x95a53f1e59f59939:0xaee3af10d1c42943!8m2!3d-33.2574419!4d-58.0182724!16s%2Fg%2F11h6nlrnj7?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.instagram.com/automotora_auto_work_/?hl=es" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card show col-sm-12 col-md-5 p-2 m-2 mx-auto">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Marcos Oliver Automoviles</h5>
+                <p class="card-text">Dolores, Bvar Artigas y Elena Barros<br>4534 8349</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899348028?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/place/Marcos+Oliver+Automoviles/@-33.5241031,-58.2106259,18z/data=!4m6!3m5!1s0x95a5288babc0a3eb:0x75e5ef94b0adc455!8m2!3d-33.523899!4d-58.2089004!16s%2Fg%2F1yg4f285h?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.instagram.com/marcosoliverautomoviles/?hl=es" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <!-- Paysandú -->
+      <div class="tab-pane fade"      id="concesionario-paysandu"       role="tabpanel" aria-labelledby="paysandu-tab">
+        <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+          
+          <div class="card show col-10 p-2 m-2">
+            <div class="card-body px-1 py-1 ">
+              <h5 class="card-title">Francisco Automotores</h5>
+              <p class="card-text">Bulevar Artigas 1032 esq.Uruguay<br>092 340 113</p>
+              <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                <a href="https://wa.me/59892340113?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.google.com/maps/place/Francisco+Automotores+Paysand%C3%BA/@-32.3173518,-58.0730544,17z/data=!3m1!4b1!4m6!3m5!1s0x95afc96168db0777:0xeff089cc7c9b65a6!8m2!3d-32.3173564!4d-58.0704795!16s%2Fg%2F11bwm2_1c9?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                <a href="https://www.instagram.com/franciscoautomotoresuy/" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- Cerro Largo -->
+      <div class="tab-pane fade"      id="concesionario-cerrolargo"    role="tabpanel"  aria-labelledby="cerrolargo-tab">
+        <div id="tarjetero-concesionarios" class="row text-center justify-content-center">
+            
+            <div class="card show col-10 p-2 m-2">
+              <div class="card-body px-1 py-1 ">
+                <h5 class="card-title">Sepi Motors</h5>
+                <p class="card-text">Melo, Juan Darío Siva 699,Esq. Dr. Luis Alberto de Herrera<br>4642 8078</p>
+                <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                  <a href="https://wa.me/59899021082?text=Hola, he iniciado un nuevo contacto en la web de Victory" class="btn btn-outline-primary mx-2"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.google.com/maps/dir/-34.8889012,-56.1024663/SEPI+MOTORS,+Juan+Dar%C3%ADo+Siva+699,+Dr.+Luis+Alberto+de+Herrera+esq,+37000+Melo,+Departamento+de+Cerro+Largo/@-33.6039742,-56.4225507,8z/data=!3m1!4b1!4m18!1m7!3m6!1s0x9509298088491a47:0x9225c6e4a75ab45e!2sSEPI+MOTORS!8m2!3d-32.3693768!4d-54.1727735!16s%2Fg%2F11df4csph0!4m9!1m1!4e1!1m5!1m1!1s0x9509298088491a47:0x9225c6e4a75ab45e!2m2!1d-54.1727735!2d-32.3693768!3e0?entry=ttu" class="btn btn-outline-primary mx-2"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="https://www.facebook.com/sepimotorsmelo" class="btn btn-outline-primary mx-2"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>  
+            
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- FOOTER   -->
+  <footer class="py-3 my-3 bg-light ">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+      <li class="nav-item"><a href="dm20.html" class="nav-link px-2 text-body-secondary">DM20</a></li>
+      <li class="nav-item"><a href="sy00.html" class="nav-link px-2 text-body-secondary">SY00</a></li>
+      <li class="nav-item"><a href="posventa.html" class="nav-link px-2 text-body-secondary">Posventa</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 NewGoNow <sup>UY</sup></p>
+  </footer>
+  
+
+    
+</body>
+</html>
